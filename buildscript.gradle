@@ -28,6 +28,7 @@ dependencies {
 	compile(group: 'deda-commons-fbk', name: 'deda-commons-fbk-2.0.0.jar', version: '0.0.+')
 	compile(group: 'deda-commons-model', name: 'deda-commons-model-2.0.0.jar', version: '0.0.+')
 	compile(group: 'deda-commons-util', name: 'deda-commons-util-2.0.0.jar', version: '0.0.+')
+	compile(group: 'test-manager', name: 'test-manager-2.0.0.jar', version: '0.0.+')
 }
 
 bootJar {  archiveFileName = "app.jar"
