@@ -24,11 +24,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-dependencies:2.0.5.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	//compile(group: 'deda-commons', name: 'deda-commons-server-2.0.0.jar', version: '2.0.2')
-	//compile(group: 'deda-commons', name: 'test-manager-2.0.0.jar', version: '0.0.14')
-	compile(group: 'deda-commons-fbk', name: 'deda-commons-fbk-2.0.0.jar', version: '0.0.1')
-	compile(group: 'deda-commons-model', name: 'deda-commons-model-2.0.0.jar', version: '0.0.1')
-	compile(group: 'deda-commons-util', name: 'deda-commons-util-2.0.0.jar', version: '0.0.1')
+	
+	compile(group: 'deda-commons-fbk', name: 'deda-commons-fbk-2.0.0.jar', version: '0.0.+')
+	compile(group: 'deda-commons-model', name: 'deda-commons-model-2.0.0.jar', version: '0.0.+')
+	compile(group: 'deda-commons-util', name: 'deda-commons-util-2.0.0.jar', version: '0.0.+')
 }
 
 bootJar {  archiveFileName = "app.jar"
